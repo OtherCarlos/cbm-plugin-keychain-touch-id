@@ -13,8 +13,8 @@
 
     <repo>https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git</repo>
     <issue>https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id/issues</issue>
-	  <js-module src="www/touchid.js" name="TouchID">
-        <clobbers target="window.plugins.touchid" />
+	  <js-module src="www/cbmtouchid.js" name="TouchID">
+        <clobbers target="window.plugins.cbmtouchid" />
     </js-module>
 
     <platform name="ios">
